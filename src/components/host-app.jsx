@@ -9,7 +9,7 @@ const HostApp = () => {
     <div className="h-screen flex flex-col items-center justify-center bg-gray-100 text-gray-800">
       <h1 className="text-2xl font-bold">Host Application</h1>
       <p className="italic">
-        This application host a a couple of Federated components
+        This application host a couple of Federated components
       </p>
       <div className="w-full max-w-md p-4 bg-white shadow-md rounded-lg mt-4">
         <ClickButton />
