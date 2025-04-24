@@ -23,8 +23,8 @@ BUT!!! There is a small but significant "problem" and that is that all (at the t
 > @cabalse:registry=https://npm.pkg.github.com/  
 > //npm.pkg.github.com/:_authToken=YOUR_GITHUB_TOKEN
 
-and the token for the Component Lib is: *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*  
-*(This token has only Package Read access)*
+NOTE!!!!
+Apparently, GitHub won't let you share tokens in a repo. Good feature :) Unless you want to. Need to check this out. Contact me for a token if you need one for the demo. I will remove the dependency on the Component Lib as fast as possible.
 
 The Component Libraries are used by the following applications: ttmfe-button, ttmfe-subscribe-form, ttmfe-bff, and ttmfe-subscribers.
 So these need the above .npmrc file in order to be able to run npm i after cloning.
